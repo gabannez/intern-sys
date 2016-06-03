@@ -1,0 +1,190 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	background:#F8F8F8;
+}
+
+#SiteBody {
+	width:960px;
+	margin: 0 auto;
+	min-width:300px;
+	max-width:2000px;
+}
+
+.searchLog {
+	margin-top:80px;
+}
+
+input[type="text"] {
+  width: 90%;
+  display: block;
+  margin: 0;
+ 
+  font-family: sans-serif;
+  font-size: 15px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+input[type="password"] {
+  width: 90%;
+  display: block;
+  margin: 0;
+ 
+  font-family: sans-serif;
+  font-size: 15px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+input[type="password"]:focus {
+  outline: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+table {
+	border-collapse: collapse;
+	width:100%;
+	margin-top:70px;
+}
+
+table, th, td {
+	border:1px solid black;
+}
+
+th {
+	background:lightblue;
+}
+
+td {
+	padding:5px;
+}
+
+.container {
+	position:relative;
+	width:100%;
+}
+
+a.forgot {
+	font-size:12px;
+	text-decoration:none;
+}
+
+a.forgot:visited {
+	text-decoration:none;
+}
+
+a.forgot:active {
+	text-decoration:none;
+}
+
+a.forgot:hover{
+	text-decoration:none;
+	color:red;
+}
+
+.title-left {
+	font-size:12px;
+	margin-left:50px;
+	margin-top:-30px;
+}
+
+.title-med {
+	font-size:12px;
+	margin-left:50px;
+	margin-top:20px;
+}
+
+.title-right {
+	font-size:12px;
+	margin-left:150px;
+	margin-top:-35px;
+}
+
+img.profile {
+	position:absolute;
+}
+
+img.logout {
+	margin-left:100px;
+	margin-top:-35px;
+}
+
+a:link {
+	text-decoration:none;
+}
+
+a:visited {
+	text-decoration:none;
+}
+
+a:active {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:none;
+	color:blue;
+}
+
+.menu {
+	margin-top:80px;
+}
+
+.menu p {
+	display:block;
+}
+
+.error {
+	font-size:12px;
+	color:red;
+}
+
+#header {
+	width:960px;
+	height:100px;
+	background:lightblue;
+	background-image:url("../images/banner1.png");
+}
+
+#header-form {
+	width:960px;
+	height:50px;
+	background:lightblue;
+	background-image:url("../images/banner2.png");
+}
+
+#nav-left {
+	height:50px;
+	float:left;
+	margin-top:10px;
+	margin-left:30px;
+}
+
+#nav-right {
+	height:50px;
+	margin-top:10px;
+	float:right;
+	margin-right:30px;
+}
+
+#content {
+	margin:80px;
+}
+
+#footer {
+	width:100%;
+	height:50px;
+	background:lightblue;
+	margin-top:10%;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#footer p {
+	padding:15px;
+}
